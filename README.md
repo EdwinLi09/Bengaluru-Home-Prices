@@ -104,7 +104,3 @@ pip install pandas numpy matplotlib scikit-learn jupyter
 - Domain-driven outlier removal (sqft-per-bedroom, bathroom limits, intra-location price sanity) had a much larger impact on model quality than algorithm choice.
 - High-cardinality categorical features benefit enormously from sensible bucketing before one-hot encoding.
 - For this dataset, a well-cleaned Linear Regression beat both Lasso and a Decision Tree under GridSearchCV.
-
-## License
-
-Add your preferred license here (e.g., MIT).
